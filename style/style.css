@@ -1,0 +1,24 @@
+body {
+	height: 100%;
+	background: rgb(79, 204, 220);
+}
+
+.user-select-none {
+	user-select: none;
+}
+
+.word-break {
+	word-break: break-all;
+}
+
+.bg-light {
+	background: #dadada;
+}
+
+.buttons button {
+	font-size: 24px;
+	font-family: 'Verdana';
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+}
