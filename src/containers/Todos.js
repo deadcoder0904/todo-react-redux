@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import classnames from 'classnames';
 
-import TodoList from './todoList';
+import TodoList from '../components/todoList';
 
 class Todos extends Component {
   constructor(props) {
@@ -48,7 +48,7 @@ class Todos extends Component {
             <button onClick={this.filteredTodos} className={classnames("br3 pa3 ma3 bg-white", {"bg-yellow": this.state.selected[1]})}>Filtered</button>
             <button onClick={this.completedTodos} className={classnames("br3 pa3 ma3 bg-white", {"bg-yellow": this.state.selected[2]})}>Completed</button>
           </div>
-		  <TodoList todos={this.state.todos} />
+		  <TodoList todos={this.state.todos} show={false} />
       </div>
     );
   }
