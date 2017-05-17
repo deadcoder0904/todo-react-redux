@@ -4,7 +4,10 @@ import uuid from 'uuid';
 const randomKey = () => uuid.v4();
 
 const todos = [
-	{ id: randomKey(), name: "YOYOYO", completed: false }
+	{ id: randomKey(), name: "Learn Redux", completed: false },
+	{ id: randomKey(), name: "Don't Listen to any advice ", completed: true },
+	{ id: randomKey(), name: "Learn React", completed: false },
+	{ id: randomKey(), name: "Always be an asshole", completed: true }
 ];
 
 const initialState = {

@@ -6,8 +6,8 @@ import {
   Link
 } from 'react-router-dom';
 
-import CRUD from './CRUD';
-import Todos from './Todos';
+import CRUD from '../containers/CRUD';
+import Todos from '../containers/Todos';
 import NoMatch from './NoMatch';
 
 class App extends Component {
