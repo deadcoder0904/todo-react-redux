@@ -42,7 +42,7 @@ class TodoInput extends Component {
 	
   render() {
     return (
-      <input className="w-50 pa2 ma2 tc f2 gray shadow-2" ref="todo" 
+      <input className="w-50 pa2 ma2 tc f2 gray shadow-2 todo-input" ref="todo" 
       	placeholder="Enter Todo..." value={this.state.value} onChange={this.handleChange} onKeyPress={this.handleKeyPress} />
     );
   }

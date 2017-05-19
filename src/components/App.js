@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <Router>
         <div className="pa2 ma2 tc">
-        <h1 className="f1 blue">TODO REACT + REDUX</h1>
+        <h1 className="f1 blue header">TODO REACT + REDUX</h1>
         <Link to="/" className="ma2 pa2 navy hover-white b f3">CRUD</Link>
         <Link to="/todos" className="ma2 pa2 navy hover-white b f3">TODOS</Link>
         <Switch>

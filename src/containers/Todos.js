@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import classnames from 'classnames';
 
-import TodoList from '../components/todoList';
+import TodoList from '../components/TodoList';
 
 class Todos extends Component {
   constructor(props) {

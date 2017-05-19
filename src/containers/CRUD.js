@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import TodoList from '../components/todoList';
-import TodoInput from './todoInput';
+import TodoList from '../components/TodoList';
+import TodoInput from './TodoInput';
 
 const CRUD = ({ todos }) => 
 	(<div className="pa2 ma2 tc">

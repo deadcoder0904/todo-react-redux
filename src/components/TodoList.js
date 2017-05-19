@@ -1,6 +1,6 @@
 import React from 'react';
 import uuid from 'uuid';
-import TodoItem from '../containers/todoItem';
+import TodoItem from '../containers/TodoItem';
 
 const randomKey = () => uuid.v4();
 
